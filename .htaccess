@@ -1,0 +1,6 @@
+RewriteEngine On
+# Esta regla convierte una URL del tipo:
+#   http://tudominio.com/intranetnativa/documentos/37/4.2%20Gu%C3%ADa%20de%20uso%20Google%20Meet.pdf
+# en una llamada interna a pdfviewer.php pasando file y title:
+RewriteRule ^documentos/([0-9]+)/(.+)\.pdf$ pdfviewer.php?file=files/sala/$1.pdf&title=$2 [L,QSA]
+

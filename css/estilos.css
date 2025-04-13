@@ -1,0 +1,1400 @@
+				a 
+				{
+					text-decoration: none!important;
+				}
+				iframe
+				{
+					border-radius: 10px;
+				}
+
+				@font-face {
+				    font-family: 'avenir';
+				    src: url('../fonts/avenir.otf') format('opentype');
+				}
+
+				.avenir-regular
+				{
+					 font-family: "avenir";
+					  font-optical-sizing: auto;
+					  font-weight: 400;
+					  font-style: normal;
+				}
+
+						.btnagrmod:disabled {
+    						background-color: gray !important;
+    						cursor: not-allowed;
+    						opacity: 0.5;
+    						box-shadow: none !important;
+						}
+
+
+    .is-invalid {
+        border: 2px solid red !important;
+        border-color: red !important;
+    }
+    .is-invalid:focus {
+        border-color: red !important;
+        outline: none !important;
+       
+    }
+
+				.avenir-medium {
+				  font-family: "avenir";
+				  font-optical-sizing: auto;
+				  font-weight: 600!important;
+				  font-style: normal;
+				}
+
+				.avenir-bold {
+				  font-family: "avenir";
+				  font-optical-sizing: auto;
+				  font-weight: 800;
+				  font-style: normal;
+				}
+
+				.montserrat-regular {
+				  font-family: "Montserrat", sans-serif;
+				  font-optical-sizing: auto;
+				  font-weight: 400;
+				  font-style: normal;
+				}
+
+				.montserrat-medium {
+				  font-family: "Montserrat", sans-serif;
+				  font-optical-sizing: auto;
+				  font-weight: 600!important;
+				  font-style: normal;
+				}
+
+				.montserrat-bold {
+				  font-family: "Montserrat", sans-serif;
+				  font-optical-sizing: auto;
+				  font-weight: 800;
+				  font-style: normal;
+				}
+
+		
+				.nunito-regular {
+				  font-family: "Nunito", sans-serif;
+				  font-optical-sizing: auto;
+				  font-weight: 500;
+				  font-style: normal;
+				}
+
+
+				.row
+			{
+				margin-right: 0!important;
+			}
+
+			.curspoint
+			{
+				cursor: pointer;
+			}
+
+
+		/**  INPUT FILE SECUNDARIO **/
+			.file-select {
+				  position: relative;
+				  display: inline-block;
+				  width: 100%;
+				  margin-bottom: 35px;
+				}
+
+			.file-select::before {
+			  background-color: none;
+			  border: 1px solid #ff5e22;
+			  color: #ff5e22;
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+			  border-radius: 5px;
+			  content: 'Subir Archivo'; /* testo por defecto */
+			  position: absolute;
+			  left: 0;
+			  right: 0;
+			  top: 0;
+			  bottom: 0;
+			  
+			}
+
+			.file-select input[type="file"] {
+			  opacity: 0;
+			  width: 100%;
+			  height: 50px;
+			  display: inline-block;
+			  cursor: pointer;
+			}
+
+
+	/** ==================================== BARRA DE DESPLAZAMIENTO (SCROLLBAR)  ===================================== **/
+	::-webkit-scrollbar
+	{
+	      width: 7px;
+				height: 8px;
+	}
+
+	::-webkit-scrollbar-track
+	{
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+	}
+
+	::-webkit-scrollbar-thumb
+	{
+        background: #ff5e22;
+    	border-radius: 10px;
+		}
+
+		::-webkit-scrollbar-corner
+			{
+      	background-color: black;
+      }
+
+
+      /******* ESTILOS ACCESO ********/
+
+
+      .cuadrocontform
+			{
+			   padding-top: 90px;
+			}
+
+			.ingreso2
+			{
+			    border-radius: 10px;
+			    background: white;
+			    padding: 3%;
+			    width: 100%;
+			    max-width: 500px;
+			    height: 500px;
+			    box-shadow: 0 10px 25px rgb(234, 234, 234);
+			}
+
+			.titform2
+			{
+			    margin-top: 20px;
+			    color: #ff4500;
+			    font-size: 1.7em;
+			    margin-bottom: 6%;
+			}
+
+			.logoform2
+			{
+				color: black;
+				font-size: 4em;
+				margin-bottom: 30px;
+			}
+
+			.small-error {
+    				font-size: 12px; 
+    				margin-top: 2px; 
+    				display: block; 
+			}
+
+			.inpform2
+			{
+				width: 285px;
+			    color: gray;
+			    padding: 3%;
+			    margin-bottom: 20px;
+			    border-left: none;
+			    border-top: none;
+			    border-right: none;
+			    border-bottom: 1px solid gainsboro;
+			    outline: none;
+			}
+
+			.butform2
+			{
+			    background: orangered;
+			    margin-top: 25px;
+			    color: white;
+			    padding: 2.7%;
+			    width: 80%;
+			    border-radius: 50px;
+			    border: none;
+			    outline: none;
+			    font-size: 1.3em;
+			    margin-bottom: 27px;
+			}
+
+			.forgot2
+			{
+				color: black;    	
+   				text-decoration: none;
+   				font-size: 1.1em;
+			}
+
+			.forgot2:hover, .forgot2:focus
+			{
+				text-decoration: none;
+				color: black;
+			}
+
+			.estform2
+			{
+				color: gray;
+			    font-size: .9em;
+			    margin-top: 10%;
+			}
+
+			.formest2
+			{
+				color: black;
+			}
+
+
+		/******* ESTILOS INICIO ********/
+
+			.busclima
+			{
+				font-size: 1.2em;
+			    padding-top: 10px;
+			    padding-bottom: 15px;
+			    border-bottom: 1px solid #979797;
+			}
+			#ww_7a376ee029e12
+			{
+				border-radius: 10px 10px 0px 0px;
+			}
+			.menu1
+			{
+				background: #e9e9ec;
+			}
+
+			.naranja
+			{
+				color: #ff520e;
+			}
+
+			.menus
+			{
+				width: 11.1% ;
+				float: left;
+				height: 60px;
+			    color: white;
+			    padding-top: 18px;
+			}
+
+			.barralatder
+			{
+				padding: 0; 
+				-webkit-box-shadow: 5px 13px 13px -2px rgba(163,161,163,1); 
+				-moz-box-shadow: 5px 13px 13px -2px rgba(163,161,163,1); 
+				box-shadow: 5px 13px 13px -2px rgba(163,161,163,1);
+			}
+
+			.cuadslider
+			{ 
+				padding-right: 35px;
+			 }
+
+			.btnadministrador
+			{
+				background: linear-gradient(90deg, #ff520e 0%, #b94013 100%);
+			    color: white;
+			    padding: 1px;
+			    width: 50px;
+			    height: 50px;
+			    border: none;
+			    font-size: 2em;
+			    border-radius: 90px;
+			    outline: 0px;
+			    box-shadow: 0 10px 25px rgb(247 80 15);
+			    position: fixed;
+			    margin-top: 1%;
+			    z-index: 15;
+			    text-align: center;
+			    left: 94%;
+			}
+
+			.menuactive
+			{
+				background: #ff520e!important;
+			}
+
+			.contprinc
+			{
+				padding-top: 55px;
+			}
+
+			.iccarousel
+			{
+				background-color: #ff520e ;
+			}
+
+			.bredondeado
+			{
+				border-radius: 10px;
+			}
+
+			.letragris
+			{
+				color: #a1a1b2;
+			}
+
+			.textbl
+			{
+				font-size: 1.3em;
+			    padding-top: 25px;
+			    width: 80%;
+			    margin-left: 10%;
+			}
+
+			.textbco
+			{
+				color: white;
+			}
+
+
+			.algizq
+			{
+				text-align: right;
+			}
+
+			.bckgris
+			{
+				background: #e9e9ec;
+			}
+
+			.bckgris2
+			{
+				background: #e8e8e8;
+			}
+
+			.textfooter
+			{
+				text-align: center;
+				color: white;
+				padding: 30px;
+			}
+
+
+			#navajustado
+			{
+				background-color: #a1a1b2!important;
+    			padding: 0;
+    			border-radius: 0!important;
+			}
+
+			.containlinks
+			{
+				padding: 0!important;
+			}
+
+			.navbco 
+			{
+				color: white!important;
+				font-size: 1.57em!important;
+				padding-top: 15px!important;
+   				height: 65px!important;
+			}
+			.nav-item
+			{
+				    border-right: 2px solid gainsboro!important;
+			}
+
+	/******* ESTILOS PROVEEDORES********/
+
+			.contbtnprov
+			{
+				margin-top: -58px!important;
+			}
+
+			.btnproveedor
+			{	
+				background-color: #a1a1b2;
+				height: 95px;
+    			padding-top: 35px;
+			    max-width: 90%;
+			    border-radius: 5px;
+			    color: white;
+			}
+
+			.contproveedores
+			{
+				padding-right: 15%!important;
+			    padding-left: 15%!important;
+			    padding-top: 65px;
+			}
+
+			.cuadproveedor
+			{
+				background: #e9e9ec;
+			    padding: 15px;
+			    border-radius: 10px;
+			    margin-bottom: 45px;
+			}
+
+			.imgprov
+			{
+				width: 100%;
+				border-radius: 10px;
+				margin-bottom: 10px;
+			}
+
+			.descprov
+			{
+				color: #82829a;
+			}
+
+	/******* ESTILOS DIRECTORIO ********/
+
+			.btndirectorio
+		{
+			background-color: #a1a1b2;
+			height: 95px;
+    		padding-top: 35px;
+			max-width: 70%;
+			border-radius: 5px;
+			color: white;
+		}
+
+
+		.contdirectorio
+			{
+				padding-right: 10%!important;
+			    padding-left: 10%!important;
+			    padding-top: 65px;
+
+			}
+
+		.cuadirectorio
+		{
+			background-color: #e9e9ec;
+			padding: 15px;
+			border-radius: 10px;
+			margin-bottom: 65px;
+			width: 90%!important;
+			-webkit-box-shadow: 9px 9px 15px -1px rgba(227,227,227,1);
+			-moz-box-shadow: 9px 9px 15px -1px rgba(227,227,227,1);
+			box-shadow: 9px 9px 15px -1px rgba(227,227,227,1);
+		}
+
+		
+
+			.txtdirectorio
+			{
+				font-size: 1.2em;
+				margin-bottom: 0;
+			}
+
+			.icondirectorio
+			{
+				color: #ff520e;
+				font-size: 1.8em;
+			}
+
+
+ 	/******* ESTILOS CORPORATIVO********/
+
+ 	.iconscorp
+ 	{
+ 		width: 140px;
+ 		border-radius: 8px;
+ 	}
+
+		.tituloseccion
+		   {
+			   	font-size: 2.7em;
+	    		margin-bottom: 50px;
+		   }
+		   .contcorporativo
+			{
+				padding-right: 7%!important;
+			    padding-left: 7%!important;
+			    padding-top: 65px;
+
+			}
+			
+		.cuadcorporativo
+		{
+			background-color: white;
+			padding: 15px;
+			margin-bottom: 65px;
+			width: 90%!important;
+		} 	
+
+		.titcorporativo
+		{
+			padding-top: 15%;
+		}
+
+		.footmodcorp
+		{
+			margin-bottom: 20px;
+    		margin-top: 15px;
+		}
+
+		.btnpdf {
+		    width: 80%;
+		    background: none;
+		    padding: 5%;
+		    text-align: center;
+		    border: 1px solid orangered;
+		    color: orangered;
+		    border-radius: 2px;
+		    margin-left: 10%;
+		    -webkit-transition: all 500ms ease;
+		    -o-transition: all 500ms ease;
+		    transition: all 500ms ease;
+		    outline: none;
+		    text-decoration: none;
+		}
+
+		.btnpdf:hover {
+		    background: orangered;
+		    border: 1px solid orangered;
+		    color: white;
+		    text-decoration: none;
+		}
+
+		.btnword {
+		    width: 80%;
+		    background: orangered;
+		    padding: 5%;
+		    text-align: center;
+		    color: white;
+		    border-radius: 2px;
+		    margin-left: 10%;
+		    -webkit-transition: all 500ms ease;
+		    -o-transition: all 500ms ease;
+		    transition: all 500ms ease;
+		    outline: none;
+		    text-decoration: none;
+		}
+
+		.btnword:hover {
+		    background: none;
+		    color: orangered;
+		    border: 1px solid orangered;
+		    text-decoration: none;
+		}
+
+		.iconspromcionales
+		{
+			width: 200px;
+		}
+
+
+	/******* ESTILOS HERRAMIENTAS********/
+	.cuadherramientas
+			{
+				background: #e9e9ec;
+			    border-radius: 10px;
+			    margin-bottom: 45px;
+			    width: 80% !important;
+			}
+
+			.imgherramientas
+			{
+				width: 100%;
+			    border-radius: 25px;
+			    margin-bottom: 10px;
+			    padding: 15px;
+			}
+
+			.tituloherramienta
+			{
+				padding-right: 15px;
+    			padding-left: 15px;
+    			text-align: left;
+			}
+
+			.txtherramienta
+			{
+				font-size: 1.3em;
+			    padding-left: 15px;
+			    padding-right: 15px;
+			    margin-bottom: 0;
+			    text-align: left;
+			}
+
+			.btnherramientas
+			{
+				margin-top: 5px;
+				background: #ff520e;
+			    color: white;
+			    padding: 10px;
+			    font-size: 1.3em;
+			    border-radius: 0px 0px 10px 10px;
+			}
+
+
+	/******* ESTILOS CERTIFICADOS********/
+
+			.cuadcertificado
+			{
+				background-color: #dbe4e6; 
+				padding: 15px; 
+				margin-bottom: 35px;
+			}
+
+			.cuadcertext
+			{
+				padding-top: 25px;
+			}
+
+			.btncertificacion
+			{
+				width: 30%; 
+				border-radius: 2px; 
+				margin-top: 25px;
+			}
+
+	/******* ESTILOS SALA DE APRENDIZAJE********/
+		.modulotitulo {		
+		    		z-index: 5;		    
+				    height: 95px;
+				    padding-top: 35px;
+				    max-width: 50%;
+				    border-radius: 5px;
+				    color: white;
+				    position: absolute;
+				    z-index: 5;
+				    margin-left: 25%;
+				}
+
+				.cuadcontsala
+				{					
+					margin-top: -100px;
+				    background: white;
+				    padding-left: 5%;
+				    padding-right: 5%;
+				    padding-bottom: 5%;
+				    padding-top: 120px;
+				    margin-bottom: 65px;
+				    border-radius: 10px;
+				    -webkit-box-shadow: 9px 9px 15px -1px rgba(227,227,227,1);
+					-moz-box-shadow: 9px 9px 15px -1px rgba(227,227,227,1);
+					box-shadow: 9px 9px 15px -1px rgba(227,227,227,1);
+				    
+				}
+
+				.salasub {
+				    font-size: 1.2em;
+				    margin-bottom: 0;
+				    margin-top: 10px;
+				}
+
+				.modbod
+				{
+					height: 550px; 
+					overflow-y: auto;
+				}
+
+				.infosala {
+				    text-align: justify;
+				    color: #313745;
+				    margin-bottom: 2%;
+				    font-size: 1em;
+				    margin-left: 4%;
+				    margin-right: 4%;
+				}
+
+				.bckgrisclaro
+				{
+					background: #f5f5f5;
+				}
+
+	/******* ESTILOS CAPACITACIONES********/
+
+			.selectfecha {
+				    width: 60%;
+				    margin-bottom: 10%;
+				    height: 50px;
+				    margin-left: 20%;
+				    margin-top: 0%;
+				    color: orangered;
+				    text-align: center;
+				    font-size: 1.3em;
+				    border-width: 1px;
+				    border-style: solid;
+				    border-color: orangered;
+				    border-image: initial;
+				    padding: 1%;
+				    border-radius: 5px;
+				}
+
+				.btnnaranjcapa
+				{
+					background: #ff520e;
+				    color: white;
+				    padding: 10px;
+				    height: 80px;
+				    font-size: 1.3em;
+				    border-radius: 0px 0px 10px 10px;
+				}
+
+				.btncapacitaciones
+				{
+					background: #a6a6b6;
+					color: white;
+				    padding: 10px;
+				    height: 80px;
+				    font-size: 1.3em;
+				    border-radius: 0px 0px 10px 10px;
+				}
+
+				.videocont 
+		    {
+			    background: #e9e9ec;
+			    border-radius: 10px;
+			    margin-bottom: 45px;
+			    width: 95% !important;
+			    -webkit-box-shadow: 9px 9px 15px -1px rgba(227, 227, 227, 1);
+			    -moz-box-shadow: 9px 9px 15px -1px rgba(227, 227, 227, 1);
+			    box-shadow: 9px 9px 15px -1px rgba(227, 227, 227, 1);
+			}
+		    	.titdemo
+		    	{
+		    		
+				    padding-bottom: 2%;
+				    margin-top: 1%;
+				    margin-bottom: 3%;
+				    border-bottom: 1px solid gainsboro;
+				    height: 60px;
+				    font-size: 1.3em;
+				}
+
+				.video
+				{
+					padding: 25px;
+				}
+
+				.infovideo
+				{
+					background: #a6a6b6;
+				    color: white;
+				    text-align: left;
+				    padding-top: 5px;
+				    padding-bottom: 2px;
+				    padding-left: 15px;
+				    padding-right: 15px;
+				    border-radius: 0px 0px 10px 10px;
+				}
+
+
+				.body-container {
+					width: 100%;
+					height: 400px;
+					overflow: hidden;
+					position: relative;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+
+				.card-wrapper
+				{
+					max-width: 1100px;
+					margin: 0 60px 35px;
+					padding: 20px 10px;
+					overflow: hidden;
+				}
+
+				.card-list {
+					display: flex;
+					flex-direction: row;
+					justify-content: flex-start;
+					align-items: center;
+					padding: 0;
+					margin: 0;
+					list-style: none;
+					gap: 0;
+				}
+
+				.card-item {
+					user-select: none;
+					position: relative;
+					width: 320px;
+					height: 180px;
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					overflow: hidden;
+					transition: transform 0.3s ease;
+					opacity: 1
+				}
+
+				.card-item:hover {
+					transform: scale(1.1);
+					z-index: 5;
+				}
+
+
+				.text-container {
+					position: absolute;
+					bottom: 0;
+					right: 0;
+					background-color: white;
+					padding: 10px 20px;
+					display: inline-block;
+				}
+
+
+				.user-name {
+					margin: 0;
+					font-size: 1.5rem;
+					color: gray;
+				}
+
+				.swiper-pagination .swiper-pagination-bullet {
+					background-color: #ff520e; !important;
+					width: 12px;
+					height: 12px;
+					border-radius: 50%;
+					margin: 0 5px;
+					transition: background-color 0.3s ease;
+				}
+
+
+				.swiper-pagination .swiper-pagination-bullet-active {
+					background-color: #ff520e; !important;
+				}
+
+				.swiper-button-prev,
+				.swiper-button-next {
+					color: #81819a;; !important;
+				}
+
+
+	/******* ESTILOS GANI CORPORATIVO********/
+
+				td 
+		    	{
+		    		padding-top: 17px!important;
+    				padding-bottom: 17px!important;
+		    	}
+
+		    	.menuadmin
+		    	{
+			    	 position: sticky;
+			    	 padding-top: 3%;			        
+			        padding-left: 5%!important;			       
+			        overflow-y: auto;
+			        width: 20%!important;
+			        background: #f9f9f9;
+			        box-shadow: 0 2px 14px rgba(0, 0, 0, .1);
+			        list-style: none;
+		    	}
+
+		    	.contadmin
+		    	{
+		    		width: 80%!important;
+		    		float: left;
+		    		padding-top: 3%;
+		    		padding-left: 3%!important;
+		    	}
+
+		    	.slist 
+		    	{
+		    		list-style: none;
+		    	}
+
+		    	.titadmonsecc
+		    	{
+		    		font-size: 2.3em;
+		    	}
+
+		    	.colgray
+		    	{
+		    		color: darkslategray;
+		    	}
+		    	.colwhite
+		    	{
+		    		color: white!important;
+		    	}
+
+		    	.menadactve
+		    	{
+		    		font-weight: 700;
+		    	}
+
+		    	.btnadmagregar
+		    	{
+		    		cursor: pointer;
+		    		margin-left: 25%;
+		    		background: #ff4500;
+				    color: white;
+				    padding: 12px;
+				    width: 230px;
+				    border: none;
+				    font-size: 1.5em;
+				    border-radius: 50px;
+				    outline: 0px;
+				    text-align: center;
+				    box-shadow: 4px 6px 10px -1px rgb(228 149 120);
+		    	}
+
+		    	.admcontapart
+		    	{
+		    		margin-top: 5%!important;
+		    		overflow-x: auto
+		    	}
+
+		    	.btntab 
+		    	{
+		    		cursor: pointer;
+				    width: 80%;
+				    background: none;
+				    padding: 5%;
+				    text-align: center;
+				    border: 1px solid orangered;
+				    color: orangered;
+				    border-radius: 5px;
+				    margin-left: 10%;
+				    -webkit-transition: all 500ms ease;
+				    -o-transition: all 500ms ease;
+				    transition: all 500ms ease;
+				    outline: none;
+				    text-decoration: none;
+
+		    	}
+
+		    	.btntab:hover
+					{		
+					    background: orangered;	   
+					    border: 1px solid orangered;
+					    color: white;
+					    text-decoration: none;
+					}		
+
+
+					.inpmodagreg
+		    	{
+		    		width: 100%;
+				    padding: 10px;
+				    border: 1px solid gainsboro;
+				    border-radius: 5px;
+				    margin-bottom: 35px;
+		    	}
+
+		    	.inputfile {
+				    width: 0.1px;
+				    height: 0.1px;
+				    opacity: 0;
+				    overflow: hidden;
+				    position: absolute;
+				    z-index: -1;
+				}
+
+				.inputfile + label {
+				    width: 100%;
+				    border-radius: 5px;
+				    font-size: 1.25rem;
+				    font-weight: 700;
+				    text-overflow: ellipsis;
+				    white-space: nowrap;
+				    cursor: pointer;
+				    display: inline-block;
+				    overflow: hidden;
+				    padding: 0.625rem 1.25rem;
+				    margin-bottom: 35px;
+				}
+
+				.inputfile + label svg {
+				    width: 1em;
+				    height: 1em;
+				    vertical-align: middle;
+				    fill: currentColor;
+				    margin-top: -0.25em;
+				    margin-right: 0.25em;
+				}
+
+				.iborrainputfile {
+					font-size:16px; 
+					font-weight:normal;
+				}
+
+		    	
+		    	.inputfile-2 + label {
+				    color: darkslategray;
+    				border: 2px solid rgb(220 220 220);
+    				-webkit-transition: all 500ms ease;
+				    -o-transition: all 500ms ease;
+				    transition: all 500ms ease;
+				}
+
+				.inputfile-2:focus + label,
+				.inputfile-2.has-focus + label,
+				.inputfile-2 + label:hover {
+				    color: #ff4500;
+				    border: 2px solid rgb(255 69 0);
+				}
+
+				.btnagrmod
+				{
+					background: #ff4500;
+				    color: white;
+				    padding: 12px;
+				    width: 250px;
+				    border: none;
+				    font-size: 1.2em;
+				    border-radius: 5px;
+				    outline: 0px;
+				    box-shadow: 0 10px 25px rgb(255, 98, 120);
+				}
+
+				.btneliminarmod
+				{	
+					margin-top: 35px;
+					background: #c80000;
+				    color: white;
+				    padding: 12px;
+				    width: 250px;
+				    border: none;
+				    font-size: 1.2em;
+				    border-radius: 5px;
+				    outline: 0px;
+				    box-shadow: 0 10px 25px rgb(255, 98, 120);
+				}
+
+
+				.inpbusqueda
+		    	{
+		    		font-size: 1.2em;
+				    color: gray;
+				    width: 80%;
+				    padding: 3.5%;
+				    border: 1px solid #eeeeee;
+				    border-radius: 10px;
+				    box-shadow: 0 10px 25px rgb(224, 224, 224);
+				    outline: none;
+				    outline: 0px;
+		    	}
+
+		    	.iconbusc
+		    	{
+		    		font-size: 1.5em;
+    				margin-left: 13px;
+		    	}
+
+		    	.btneditadm
+			{
+				background: orangered;
+			    color: white;
+			    border-radius: 50px;
+			    border: none;
+			    padding: 5px;
+			    font-size: 1.5em;
+			    width: 45px;
+			    height: 45px;
+			    margin-left: 65%;
+			}
+
+			.webinbtn
+			{
+				margin-left: 80%; 
+				margin-bottom: 45px;
+			}
+
+			.btneliminaradm
+			{
+				background: darkred;
+			    color: white;
+			    border-radius: 50px;
+			    border: none;
+			    padding: 5px;
+			    font-size: 1.5em;
+			    width: 45px;
+			    height: 45px;
+			    margin-left: 10px;
+			}
+
+			.btnconfirmar
+			{
+				width: 150px;
+			    background: orangered;
+			    padding: 8px;
+			    border: none;
+			    color: white;
+			    font-size: 1.5em;
+			    border-radius: 5px;
+			    margin-top: 10px;
+			    margin-bottom: 20px;
+			}
+
+			.btncancelar
+			{
+				width: 150px;
+			    border: 1px solid orangered;
+			    background: none;
+			    padding: 8px;			    
+			    color: orangered;
+			    font-size: 1.5em;
+			    border-radius: 5px;
+
+			}
+			.vermashid
+			{
+				visibility: hidden;
+			}
+
+	.menuadminresp
+	
+		{
+			display: none;
+		}
+
+		.btnmodsala
+		{
+			margin-left: 80%!important;
+    		margin-bottom: 35px;
+		}
+
+		.imgaccesos
+		{
+			width: 100%;
+			border-radius: 5px;
+		}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+  .btnadministrador 
+  	{    
+	    top: 90%;   
+	    left: 83%;
+	}
+
+	.row {
+	    margin-right: 0 !important;
+	    margin-left: 0 !important;
+	}
+
+	.cuadslider
+			{ 
+				padding-right: 0px;
+				margin-bottom: 70px;
+			 }
+
+			 .btnproveedor, .btndirectorio 
+			 {
+			 	margin-bottom: 35px;
+			 }
+
+	.contproveedores, .contdirectorio 
+	{
+	    padding-right: 5% !important;
+	    padding-left: 5% !important;
+	}
+
+	.cuadirectorio, .cuadherramientas
+		{
+			width: 100%!important;
+		}
+
+		.titcorporativo
+		{
+			text-align: center;
+		}
+
+		.iconscorp, .iconspromcionales
+		{
+			width: 100%;
+			border-radius: 10px;
+		}
+
+		.btnpdf, .btnword
+		{
+			margin-bottom: 15px;
+		}
+
+		.titadmonsecc {
+		    font-size: 2.3em;
+		    text-align: center;
+		    margin-bottom: 20px;
+		}
+
+		.inpbusqueda
+		{
+    		margin-bottom: 35px;
+		}
+
+		.btnvertodo, .btntab 
+		{
+			width: 100%!important;
+		}
+
+
+		.menuadmin
+		{
+			display: none;
+		}
+
+		.contadmin
+		{
+			width: 100%!important;
+		}
+
+		.admcontapart
+		{
+			overflow-x: auto ;
+		}
+
+		.menuadminresp
+		{
+
+				background: linear-gradient(90deg, #ff520e 0%, #b94013 100%);
+			    color: white;
+			    padding: 1px;
+			    width: 50px;
+			    height: 50px;
+			    border: none;
+			    font-size: 2em;
+			    border-radius: 90px;
+			    outline: 0px;
+			    box-shadow: 0 10px 25px rgb(247 80 15);
+			    position: fixed;			    
+			    z-index: 8;
+			    text-align: center;
+			    top: 90%;   
+	    		right: 83%;
+	    		display: block;
+	    		cursor: pointer;
+			    
+
+		}
+
+		/************SIDE BAR**********/
+		.sidenav {
+		  height: 100%;
+		  width: 0;
+		  position: fixed;
+		  z-index: 10;
+		  top: 0;
+		  left: 0;
+		  background-color: #ff5e22;
+		  overflow-x: hidden;		  
+		  padding-top: 60px;
+		  -webkit-transition: all 500ms ease;
+		   -o-transition: all 500ms ease;
+		    transition: all 500ms ease;
+		}
+
+		.sidenav a {
+		  padding: 8px 8px 8px 32px;
+		  text-decoration: none;
+		  font-size: 25px;
+		  color: #ffffff;
+		  display: block;
+		  transition: 0.3s;
+		}
+
+		.sidenav a:hover {
+		  color: #150000;
+		}
+
+		.sidenav .closebtn {
+		  position: absolute;
+		  top: 0;
+		  right: 25px;
+		  font-size: 36px;
+		  margin-left: 50px;
+		}
+
+		.webinbtn
+		{
+			margin-left: 15%;
+			margin-bottom: 50px;
+		}
+
+		.selectfecha
+		{
+			margin-left: 0;
+		}
+
+		.video
+		{
+			padding: 7px;
+		}
+
+		.videocont
+		{
+			width: 100% !important;
+		}
+
+		.titdemo
+		{
+			height: auto;
+		}
+
+		.btncertificacion {
+		    width: 100%;
+		    margin-bottom: 30px;
+		}
+
+		.tituloherramienta, .txtherramienta 
+		{
+			text-align: center;
+		}
+
+		.modulotitulo
+		{
+			margin-left: 10%;
+		}
+
+		.btnmodsala
+		{
+			margin-left: 15%;
+    		margin-bottom: 35px;
+		}
+
+		.modulotitulo
+		{
+			width: 80%!important;
+			max-width: 100%;
+    		margin-left: 4%;
+		}
+
+		.imgaccesos
+		{
+			width: 90%;
+			border-radius: 10px;
+		}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+
+
+
